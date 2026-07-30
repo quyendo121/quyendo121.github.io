@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="OperoSense logo">
+  <circle cx="60" cy="60" r="52" fill="none" stroke="#2f83c2" stroke-width="9"/>
+  <path d="M78 40 C78 27 62 25 52 31 C40 38 44 52 58 56 C74 61 78 74 66 82 C55 89 42 86 40 74"
+        fill="none" stroke="#2f83c2" stroke-width="10" stroke-linecap="round"/>
+  <path d="M78 40 C78 27 62 25 52 31 C40 38 44 52 58 56"
+        fill="none" stroke="#a8ce3a" stroke-width="10" stroke-linecap="round"/>
+</svg>
