@@ -381,11 +381,7 @@
                 <div class="founder">
                     <img class="founder-photo" src="https://backends.it.ntnu.no/user-profile-service/rest/files/396e881a-96bf-3f7c-bd91-f829cff11057" alt="Quyen Do" loading="lazy" referrerpolicy="no-referrer">
                     <span class="founder-name">Quyen Do</span>
-                    <span class="founder-role"><span class="lang-en">CEO &amp; Co-Founder</span><span class="lang-vi">CEO &amp; Đồng sáng lập</span><span class="lang-no">CEO &amp; medgründer</span></span>
-                    <div class="founder-contact">
-                        <a href="mailto:quyen.do@ntnu.no">quyen.do@ntnu.no</a>
-                        <a href="tel:+4746258343">+47 462 58 343</a>
-                    </div>
+                    <span class="founder-role"><span class="lang-en">Principal Consultant</span><span class="lang-vi">Chuyên gia Tư vấn Chính</span><span class="lang-no">Sjefskonsulent</span></span>
                     <div class="founder-links">
                         <a href="https://www.ntnu.edu/employees/quyen.do" target="_blank" rel="noopener">NTNU</a>
                         <a href="https://www.linkedin.com/in/doquyen1995/" target="_blank" rel="noopener">LinkedIn</a>
@@ -397,11 +393,7 @@
                 <div class="founder">
                     <img class="founder-photo" src="https://backends.it.ntnu.no/user-profile-service/rest/files/7604be7c-871b-39eb-be5c-a78d31c08d08" alt="Hung Quoc Nguyen" loading="lazy" referrerpolicy="no-referrer">
                     <span class="founder-name">Hung Quoc Nguyen</span>
-                    <span class="founder-role"><span class="lang-en">CTO &amp; Co-Founder</span><span class="lang-vi">CTO &amp; Đồng sáng lập</span><span class="lang-no">CTO &amp; medgründer</span></span>
-                    <div class="founder-contact">
-                        <a href="mailto:hung.q.nguyen@ntnu.no">hung.q.nguyen@ntnu.no</a>
-                        <a href="tel:+4796701165">+47 967 01 165</a>
-                    </div>
+                    <span class="founder-role"><span class="lang-en">Lead Technical Consultant</span><span class="lang-vi">Trưởng nhóm Tư vấn Kỹ thuật</span><span class="lang-no">Ledende teknisk konsulent</span></span>
                     <div class="founder-links">
                         <a href="https://www.ntnu.edu/employees/hung.q.nguyen" target="_blank" rel="noopener">NTNU</a>
                         <a href="https://www.linkedin.com/in/hung138/" target="_blank" rel="noopener">LinkedIn</a>
@@ -473,10 +465,10 @@
                     syncFields();
                     status.textContent = '✓ Thank you — your inquiry has been sent.';
                 } else {
-                    status.textContent = 'Something went wrong. Please email quyen.do@ntnu.no directly.';
+                    status.textContent = 'Something went wrong. Please try again later.';
                 }
             }).catch(function () {
-                status.textContent = 'Network error. Please email quyen.do@ntnu.no directly.';
+                status.textContent = 'Network error. Please try again later.';
             }).finally(function () {
                 if (btn) btn.disabled = false;
             });
